@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Mart</title>
+  <link rel="shortcut icon" type="image" href="./image/weblogo.png">
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- cdnjs for fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <!-- bootstrap links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- bootstrap links -->
+  <!-- Font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- font links -->
+</head>
+
+<body>
+
+  <!-- top navbar -->
+
+  <!-- <div class="top-navbar">
+    <div class="top-icons">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+
+
+    <div class="other-links">
+        <button id="btn-login"><a href="login.html">Login</a></button>
+        <button id="btn-signup"><a href="signup.html">Sign Up</a></button>
+        
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+
+</div> -->
+  <!-- top navbar -->
+
+  <div class="home-section">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: white;"><img src="./image/weblogo.png" alt=""
+            width="50px">E-Mart</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fa solid fa-bars" style="color: white;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="cloth.html" >Clothes</a>
+              </li> -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Category
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: white;">
+                <li><a class="dropdown-item" href="#">Food Items</a></li>
+                <li><a class="dropdown-item" href="#">Books</a></li>
+                <li><a class="dropdown-item" href="#">Frangrances</a></li>
+                <li><a class="dropdown-item" href="#">Fresh</a></li>
+                <li><a class="dropdown-item" href="#">Fashion</a></li>
+                <li><a class="dropdown-item" href="#">Home Items</a></li>
+                <li><a class="dropdown-item" href="#">Beauty Items</a></li>
+                <li><a class="dropdown-item" href="#">Stationary Items</a></li>
+                <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <!-- <button class="btn btn-outline-success" type="submit" id="search-btn">Search</button> -->
+          </form>
+          <button id="btn-login" height="50px"><a href="/login">Login</a></button>
+          <button id="btn-signup" height="60px"><a href="/index">Sign Up</a></button>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- Home Section -->
+    <section class="home">
+      <!-- <div class="content">
+        <h3>Biggest Cloth Sale
+            <br> <span>Up To 50% Off</span>
+        </h3>
+        <p>Lorem ipsum dolor</p>
+        <button id="shopnow">Shop now</button>
+    </div> -->
+      <div class="img">
+        <!-- <img src="image/img2.png" alt=""> -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/image/img2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/img4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/image/img3.png" class="d-block w-100" alt="...">
+            </div>
+            <!-- <div class="carousel-item">
+                <img src="./image/vanja-matijevic-3n1QVNxf8hs-unsplash.jpg" class="d-block w-100" alt="..." height="500" width="3000">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/promocode-130218-perfumesdirect_banner.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/2.png" class="d-block w-100" alt="..." >
+              </div>
+              <div class="carousel-item">
+                <img src="./image/3.png" class="d-block w-100" alt="..." >
+              </div> -->
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+  <!-- Home Section -->
+  </div>
+
+
+  <!-- top cards -->
+  <!-- <div class="card" style="width: 18rem;">
+    <img src="./image/topcard1.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Sonata Watch</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Add to Cart</a>
+      <a href="#" class="btn btn-primary">Buy Now</a>
+    </div>
+  </div> -->
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">
+          <h1><b>Welcome To E-Mart</b></h1>
+        </h1>
+        <p class="lead text-muted"><b>
+            <h2>Shop All the Items at least price and Best quality products on our Webiste</h2>
+          </b></p>
+        <p>
+          <!-- <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
+        </p>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-90">
+          <div class="zoom"><img src="./image/topcard1.png" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Gold Sonata Watch for Women</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.999/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-90">
+          <div class="zoom"><img src="./image/topcard2.png" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Nike Airmax Red Shoes For Men</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.2,999/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-90">
+          <div class="zoom"><img src="./image/p2.png" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Blue Addidas Jacket For Men</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.2,999/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- banner -->
+    <div class="banner">
+      <div class="content">
+        <h1>Get Up To 50% Off</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, animi?</p>
+        <div id="bannerbtn"><button>SHOP NOW</button></div>
+      </div>
+    </div>
+    <!-- banner -->
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom">
+            <img src="./image/b2.png" class="card-img-top" alt="..." height="300px">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Nike Blue Shoes for Men</b></h5>&nbsp;&nbsp;
+            <p class="card-text">
+            <h4><b>Rs.4,999/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom">
+            <img src="./image/p6.png" class="card-img-top" alt="..." height="300px">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title"><b>SportsMax Blue Shoes for Men</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.2,999/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/p15.png" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Addidas Men's Sports Shoes</b></h5>&nbsp;
+            <p class="card-text">
+            <h4><b>Rs.1,800/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/vanja-matijevic-3n1QVNxf8hs-unsplash.jpg" class="card-img-top" alt="..."
+              height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Puma's Lace up Shoes for Men and Women </b></h5>
+            <p class="card-text">
+            <h4><b>Rs.1,600/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/p20.png" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Men's Cotton Grey T-shirt</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.450/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/p17.png" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Blue Men's Cotton T-Shirt</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.899/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/p13.png" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Sport's Men T-shirt</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.499/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/p12.jpg" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Full Sleeve Men's T-shirt</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.299/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/p11.jpg" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Grey Regular Men's Jacket</b></h5>&nbsp;
+            <p class="card-text">
+            <h4><b>Rs.399/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+
+          <div class="zoom">
+            <img src="./image/p19.png" class="card-img-top" alt="..." height="300px">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Leather Men's Genuine Green Jacket</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.1,299/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/p16.png" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Men's Real Leather Jacket</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.999/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/photo-1521223890158-f9f7c3d5d504.avif" class="card-img-top" alt="..."
+              height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>DEL ROSKOSH Black leather Biker Jacket</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.1,700/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"> <img src="./image/perfume1.avif" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Mersace Eros Cool Perfume</b></h5>&nbsp;&nbsp;
+            <p class="card-text">
+            <h4><b>Rs.999/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"> <img src="./image/perfume 3.avif" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>cK(Calvin Klein) Black Edition Perfume</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.799/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/perfume 2.avif" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>New Park Avenue Euphoria Perfume(Blue Edition)</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.299/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/perfume 4.avif" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Cariel Perfumes(Pack of 2)</b></h5>&nbsp;
+            <p class="card-text">
+            <h4><b>Rs.599/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/beauty -1.avif" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>RoseBerry Makeup Set</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.1,999/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/beauty-2.avif" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>BAIES Makeup Set</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.2,999/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/p7.png" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Anouk Women Heels</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.615/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/p5.png" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>IRTH Dreamy Orange Shoulder Bag</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.3,495/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/chips.avif" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>FrenchFries</b></h5>&nbsp;
+            <p class="card-text">
+            <h4><b>Rs.120/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/pizza.avif" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Veg Cheese Margreta large pizza</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.99/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/food-1.avif" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Veg Cheese Burger with ColdDrink</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.200/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/sandwitch.avif" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Veg Club Sandwitch with ColdDrink</b></h5>
+            <p class="card-text">
+            <h4><b>Rs.500/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"> <img src="./image/home-1.avif" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Emart Basics Aluminium Non-Stick Black Cookware Set - 15 Piece</b></h5>
+            <p class="card-text">
+            <h4><b><s>Rs.4,699/-</s>Rs.10,100/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/home-2.avif" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>PHILIPS HL7707/00 750W Mixer Grinder with 4 Jars, Black</b></h5>
+            <p class="card-text">
+            <h4><b><s>Rs.9,099/-</s>Rs.11,995/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"><img src="./image/home-3.avif" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>SONY-LED-Bravia(32 inch) Smart Android Tv</b></h5>&nbsp;
+            <p class="card-text">
+            <h4><b><s>Rs.30,990/-</s>Rs.26,990/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="zoom"> <img src="./image/home-4.avif" class="card-img-top" alt="..." height="300px"></div>
+          <div class="card-body">
+            <h5 class="card-title"><b>Whirlpool 190 L 2 Star Direct-cool Single Door Refrigerator</b></h5>
+            <p class="card-text">
+            <h4><b><s>Rs.19,999/-</s>Rs.13,940/-</b></h4>
+            </p>
+            <p class="card-text">
+            <h4>
+              <b>Rating:</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <!-- <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg> -->
+        <img src="./image/weblogo.png" alt="" height="40px" width="70px">
+      </a>
+      <span class="mb-3 mb-md-0 text-muted"><b>© 2023 E-Mart, Inc</b></span>
+    </div>
+
+    <!-- <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+    </ul> -->
+    <div class="icons">
+      <a href="#"> <i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://www.linkedin.com/in/sujal-joisar-82337722a/"><i
+          class="fa-brands fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
